@@ -1,3 +1,8 @@
+"""
+AUTHOR: Faris Abufarha
+
+"""
+
 import camelot  # opencv needed
 import PyPDF2
 
