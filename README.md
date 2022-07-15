@@ -7,7 +7,7 @@ Python script to extract all tables in PDF file
 pip install tk
 ```
 
-'''
+```
 pip install ghostscript
 ```
 
