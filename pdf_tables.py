@@ -20,6 +20,7 @@ try:
     file = open(f'{file_name}.pdf', 'rb')
     readpdf = PyPDF2.PdfFileReader(file)
     totalpages = readpdf.numPages
+    file.close()
 
 except FileNotFoundError:
     red()
